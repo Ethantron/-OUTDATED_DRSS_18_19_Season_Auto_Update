@@ -28,3 +28,5 @@
     1. Switch to the Master branch, (see "CHANGING BETWEEN BRANCHES").
     2. Go to the bottom right corner of the screen and click on "Git: master".
     3. Click on the branch tht you want to merge.
+    4. Click on "Merge into Current".
+    5. Click on "Smart Merge".
