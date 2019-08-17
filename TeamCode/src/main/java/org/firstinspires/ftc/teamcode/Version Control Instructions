@@ -7,3 +7,11 @@
     2. Change the commit message to say what you added, deleted, or changed.
     3. Click the dropdown next to "commit".
     4. Click on "Commit and Push".
+    5. Click "Push".
+
+    NOTES:
+
+    1. When adding an experimental part of the code, go to the bottom right corner of the screen, and click on "Git: master".
+    2. Click "New Branch".
+    3. Add Name and click "Ok"
+    4.
