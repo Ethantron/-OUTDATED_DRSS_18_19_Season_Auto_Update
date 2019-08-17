@@ -21,6 +21,7 @@
     1. To switch which branch you are on, go to the bottom right corner of the screen, and click on "Git: ******".
     2. Click on the branch that you want to switch to.
     3. Click on "Checkout"
+    4. Be sure to commit the code BEFORE switching.
 
     MERGING BRANCHES:
      Once your tests have been tested and approved by the lead programmer and captain,
@@ -29,7 +30,5 @@
     2. Go to the bottom right corner of the screen and click on "Git: master".
     3. Click on the branch the you want to merge.
     4. Click on "Merge into Current".
-    5. Click on "Smart Merge".
+    5. If it is the fist merge, Click on "Smart Merge".
     6. A Popup will come up that says "delete ******", click delete.
-
-test
