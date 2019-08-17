@@ -3,4 +3,7 @@
     In this project, we have implemented Version control software, witch will keep track of every change that we make in the code.
     This will instruct you on how to use the software.
 
-    1. When you are finished coding, either press "ctrl + shift + k"
+    1. When you are finished coding, either press "ctrl + k", or click on "VCS", then "Commit".
+    2. Change the commit message to say what you added, deleted, or changed.
+    3. Click the dropdown next to "commit".
+    4. Click on "Commit and Push".
