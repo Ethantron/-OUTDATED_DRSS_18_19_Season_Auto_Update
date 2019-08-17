@@ -13,5 +13,17 @@
 
     1. When adding an experimental part of the code, go to the bottom right corner of the screen, and click on "Git: master".
     2. Click "New Branch".
-    3. Add Name and click "Ok"
-    4.
+    3. Add Name and click "Ok".
+    4. You will then be working on that branch.
+
+    CHANGING BETWEEN BRANCHES:
+    1. To switch witch branch you are on, go to the bottom right corner of the screen, and click on "Git: ******".
+    2. Click on the branch that you want to switch to.
+    3. Click on "Checkout"
+
+    MERGING BRANCHES:
+     Once your tests have been tested and approved by the lead programmer and captain,
+       you can merge the branch back into the master code.
+    1. Switch to the Master branch, (see "CHANGING BETWEEN BRANCHES").
+    2. Go to the bottom right corner of the screen and click on "Git: master".
+    3. Click on the branch tht you want to merge.
