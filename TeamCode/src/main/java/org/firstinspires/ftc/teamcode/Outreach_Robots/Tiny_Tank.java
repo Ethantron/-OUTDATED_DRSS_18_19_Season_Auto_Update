@@ -27,10 +27,15 @@ public class Tiny_Tank extends OpMode {
     //Introduces the programmable parts of the robot and sets different variables.
 
     Servo Servoleft;
+    //Port 0
     Servo Servoright;
+    //Port 1
     DcMotor Light;
+
     Servo Pan;
+    //Port 2
     Servo Tilt;
+    //Port 3
     // DcMotor Relay;
     double slowtggl = 0;
     double speed = 1;
@@ -57,8 +62,8 @@ public class Tiny_Tank extends OpMode {
         Pan = hardwareMap.servo.get("Pan"); //Continuous Rotation Servo
         Tilt = hardwareMap.servo.get("Tilt"); //180 Degree Servo
 
-        Tilt.setPosition(0.5); //Sets servo into "Zero" position
-        Pan.setPosition(0.25);
+        //Tilt.setPosition(0.5); //Sets servo into "Zero" position
+        //Pan.setPosition(0.25);
         Servoright.setPosition(0.5);
         Servoleft.setPosition(0.5);
     //    TiltActive = 1;
