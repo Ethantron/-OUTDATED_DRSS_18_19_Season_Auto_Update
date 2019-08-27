@@ -63,7 +63,7 @@ public class Tiny_Tank extends OpMode {
         Tilt = hardwareMap.servo.get("Tilt"); //180 Degree Servo
 
         //Tilt.setPosition(0.5); //Sets servo into "Zero" position
-        //Pan.setPosition(0.25);
+        Pan.setPosition(0.5);
         Servoright.setPosition(0.5);
         Servoleft.setPosition(0.5);
     //    TiltActive = 1;
@@ -180,26 +180,26 @@ public class Tiny_Tank extends OpMode {
         if (gamepad1.dpad_down){
             Tilt.setPosition(.75);
         }
-        
+
         if (gamepad1.dpad_up){
             Tilt.setPosition(.25);
         }
-        /*
+
         if (gamepad1.a){
             Tilt.setPosition(.51);
-            Pan.setPosition(.25);
+           // Pan.setPosition(.25);
         }
-
+        /*
         if (gamepad1.b){
             Pan.setPosition(.45);
         }
-
+        */
         if (gamepad1.dpad_left){
-            if (Pan.getPosition() > 0.00) {
+            //if (Pan.getPosition() > 0.00) {
                 Pan.setPosition(Pan.getPosition() - 0.003);
-            }
+            //}
         }
-
+/*
         if (gamepad1.dpad_right){
             if (Pan.getPosition() <0.45) {
                 Pan.setPosition(Pan.getPosition() + 0.003);
@@ -221,5 +221,6 @@ public class Tiny_Tank extends OpMode {
         if (speed == 1) {
             telemetry.addData("Fast", "");
         }
+        telemetry.addData("pan", Pan.getPosition());
     }
 }
