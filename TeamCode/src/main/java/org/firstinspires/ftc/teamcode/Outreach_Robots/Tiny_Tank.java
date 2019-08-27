@@ -180,11 +180,11 @@ public class Tiny_Tank extends OpMode {
         if (gamepad1.dpad_down){
             Tilt.setPosition(.75);
         }
-
+        
         if (gamepad1.dpad_up){
             Tilt.setPosition(.25);
         }
-
+        /*
         if (gamepad1.a){
             Tilt.setPosition(.51);
             Pan.setPosition(.25);
@@ -205,7 +205,7 @@ public class Tiny_Tank extends OpMode {
                 Pan.setPosition(Pan.getPosition() + 0.003);
             }
         }
-
+*/
         if (slowtggl == 0) {
             telemetry.addData("Slow mode:", "on");
         }

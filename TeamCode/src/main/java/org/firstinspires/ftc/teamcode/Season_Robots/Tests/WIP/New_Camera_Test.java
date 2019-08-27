@@ -10,7 +10,7 @@ public class New_Camera_Test extends OpMode {
 
     public void init(){
         Pan = hardwareMap.servo.get("Pan");
-        Pan.setPosition(0.25);
+     //   Pan.setPosition(0.25);
     }
 
     public void loop(){
