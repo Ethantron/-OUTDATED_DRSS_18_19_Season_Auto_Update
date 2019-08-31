@@ -186,26 +186,26 @@ public class Tiny_Tank extends OpMode {
         }
 
         if (gamepad1.a){
-            Tilt.setPosition(.51);
-           // Pan.setPosition(.25);
+            Tilt.setPosition(.50);
+            Pan.setPosition(.50);
         }
-        /*
+
         if (gamepad1.b){
-            Pan.setPosition(.45);
+            Pan.setPosition(.25);
         }
-        */
+
         if (gamepad1.dpad_left){
             //if (Pan.getPosition() > 0.00) {
                 Pan.setPosition(Pan.getPosition() - 0.003);
             //}
         }
-/*
+
         if (gamepad1.dpad_right){
-            if (Pan.getPosition() <0.45) {
+            //if (Pan.getPosition() <0.45) {
                 Pan.setPosition(Pan.getPosition() + 0.003);
-            }
+            //}
         }
-*/
+
         if (slowtggl == 0) {
             telemetry.addData("Slow mode:", "on");
         }
