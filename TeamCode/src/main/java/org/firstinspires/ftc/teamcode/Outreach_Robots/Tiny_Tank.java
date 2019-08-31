@@ -222,5 +222,6 @@ public class Tiny_Tank extends OpMode {
             telemetry.addData("Fast", "");
         }
         telemetry.addData("pan", Pan.getPosition());
+
     }
 }
